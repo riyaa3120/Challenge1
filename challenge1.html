@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 1</title>
+    <style>
+      h1 {
+        display: block;
+        text-align: center;
+        color: rgb(26, 100, 214);
+        font-size: 40px;
+        line-height: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 0%;
+      }
+      h2 {
+        display: block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      ul {
+        list-style: none;
+        margin-left: 35%;
+      }
+      li {
+        /* display: block; */
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding: 10px;
+        padding-bottom: 30px;
+        transition: all 400ms;
+        border-radius: 10px;
+        max-width: 400px;
+      }
+      .tags {
+        line-height: 3em;
+        font-weight: bold;
+      }
+      li:hover {
+        background-color: rgb(255, 252, 244);
+      }
+      .el {
+        color: rgb(76, 76, 76);
+        /* opacity: 0.5; */
+      }
+      .ele1 {
+        font-family: monospace;
+        opacity: 0.7;
+        font-size: 20px;
+      }
+      button {
+        margin-top: 30px;
+        background-color: rgb(26, 100, 214);
+        display: block;
+        margin: auto;
+        /* padding: 30px; */
+        color: white;
+        border: 1px solid #1a64d6;
+        font-size: 18px;
+        border-radius: 30px;
+        padding: 16px 24px;
+        transition: all 200ms ease;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: white;
+        color: rgb(26, 100, 214);
+      }
+      .end {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        opacity: 0.7;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>13° / <strong> 23°</strong></h2>
+    <ul>
+      <li>
+        <span class="tags">🌧Tomorrow</span>
+        <br /><span class="ele1">10° / <strong class="el"> 22°</strong></span>
+      </li>
+      <li>
+        <span class="tags">🌥 Saturday</span>
+        <br /><span class="ele1">15° / <strong class="el">17°</strong></span>
+      </li>
+      <li>
+        <span class="tags">☀️ Saturday</span>
+        <br /><span class="ele1">25° / <strong class="el">28°</strong></span>
+      </li>
+    </ul>
+    <button>
+      Change City
+    </button>
+    <span class="end">Coded By Riya Jais</span>
+  </body>
+</html>
